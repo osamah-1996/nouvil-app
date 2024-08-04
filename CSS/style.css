@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.dropdown-menu{
+  margin-top: 8px;
+  width: 300px !important;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.nav-link {
+  font-size: 15px !important;
+  padding: 10px !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.card-img {
+   height: 200px !important;
+}
+.carsoul-image{
+  height: 500px;
+}
+@media screen and (max-width:1000px) {
+  .card{
+    width: 80% !important;
+    margin: 10px auto;
+  }
+}
